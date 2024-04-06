@@ -7,16 +7,17 @@ import org.designpatterns.structural.strategy.duck.impls.FlyRocketPowered;
 
 public class Main {
     public static void main(String[] args) {
-        MallardDuck mallard = new MallardDuck();
-
-        mallard.performQuack();
-        mallard.performFly();
-
-        ModelDuck modelDuck = new ModelDuck();
-        modelDuck.performFly();
-        modelDuck.setFlyBehaviour(new FlyRocketPowered());
-
-        King king = new King();
-        king.fight();
+    // Strategy Pattern
+//        MallardDuck mallard = new MallardDuck();
+//
+//        mallard.performQuack();
+//        mallard.performFly();
+//
+//        ModelDuck modelDuck = new ModelDuck();
+//        modelDuck.performFly();
+//        modelDuck.setFlyBehaviour(new FlyRocketPowered());
+//
+//        King king = new King();
+//        king.fight();
     }
 }
