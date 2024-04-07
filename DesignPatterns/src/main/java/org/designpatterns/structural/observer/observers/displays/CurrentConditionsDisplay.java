@@ -7,7 +7,7 @@ import org.designpatterns.structural.observer.subject.WeatherData;
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;
     private float humidity;
-    private WeatherData weatherData;
+    private final WeatherData weatherData;
 
     public CurrentConditionsDisplay(WeatherData weatherData){
        this.weatherData  = weatherData;
